@@ -9,6 +9,9 @@ spec:
     - port: 8080
       targetPort: 8080
       name: api
+    - port: 8734
+      targetPort: 8734
+      name: metrics
   selector:
     app: api
   clusterIP: None
