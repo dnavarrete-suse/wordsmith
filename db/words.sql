@@ -3,44 +3,44 @@ CREATE TABLE verbs (word TEXT NOT NULL);
 CREATE TABLE adjectives (word TEXT NOT NULL);
 
 INSERT INTO nouns(word) VALUES
-  ('cloud'),
-  ('elephant'),
+  ('sev1'),
+  ('sev2'),
   ('gø language'),
   ('laptøp'),
   ('cøntainer'),
   ('micrø-service'),
-  ('turtle'),
-  ('whale'),
-  ('gøpher'),
-  ('møby døck'),
+  ('engineer'),
+  ('longhorn'),
+  ('rancher'),
+  ('cluster'),
   ('server'),
-  ('bicycle'),
-  ('viking'),
-  ('mermaid'),
-  ('fjørd'),
-  ('legø'),
-  ('flødebolle'),
-  ('smørrebrød');
+  ('k3s'),
+  ('network'),
+  ('handover'),
+  ('pod'),
+  ('service'),
+  ('volume'),
+  ('cloud');
 
 INSERT INTO verbs(word) VALUES
-  ('will drink'),
+  ('breaks'),
   ('smashes'),
-  ('smøkes'),
-  ('eats'),
-  ('walks tøwards'),
+  ('corrupts'),
+  ('disappears'),
+  ('hates'),
   ('løves'),
   ('helps'),
   ('pushes'),
   ('debugs'),
-  ('invites'),
+  ('begs'),
   ('hides'),
-  ('will ship');
+  ('will leave');
 
 INSERT INTO adjectives(word) VALUES
   ('the exquisite'),
-  ('a pink'),
-  ('the røtten'),
-  ('a red'),
+  ('the healthy'),
+  ('the latest'),
+  ('an adorable '),
   ('the serverless'),
   ('a brøken'),
   ('a shiny'),
@@ -50,6 +50,6 @@ INSERT INTO adjectives(word) VALUES
   ('the famøus'),
   ('a gigantic'),
   ('the gløriøus'),
-  ('the nørdic'),
-  ('the welcøming'),
-  ('the deliciøus');
+  ('the dangerous'),
+  ('the sarcastic'),
+  ('the helpless');
