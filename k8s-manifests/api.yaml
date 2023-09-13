@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: dockersamples/wordsmith-api
+          image: harbor.dnavarrete-tf-do-rke.do.support.rancher.space/wordsmith/wordsmith-api:1.0.0
           ports:
             - containerPort: 8080
               name: api
