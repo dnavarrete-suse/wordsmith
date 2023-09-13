@@ -22,9 +22,12 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 	
+        //Prometheus server metric exporter -- monitoring-demo
+	HTTPServer promserver = new HTTPServer(8734);        
 
+	    
         Class.forName("org.postgresql.Driver");
-
+        
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
         server.createContext("/noun", handler(() -> randomWord("nouns")));
         server.createContext("/verb", handler(() -> randomWord("verbs")));
