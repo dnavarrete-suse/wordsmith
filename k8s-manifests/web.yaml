@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: harbor.dnavarrete-tf-do-rke.do.support.rancher.space/wordsmith/wordsmith-web:1.0.0
+          image: dnavarrete-harbor.do.support.rancher.space/wordsmith/wordsmith-web:1.0.0
           ports:
             - containerPort: 80
               name: web
